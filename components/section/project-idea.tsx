@@ -31,7 +31,7 @@ export const ProjectIdea = () => {
   return (
     <section
       ref={targetRef}
-      className="h-[1000vh] text-neutral-50 bg-neutral-950"
+      className="h-[1000vh] bg-background text-foreground "
     >
       <div className="sticky top-0 flex h-[600px] items-center overflow-hidden">
         <motion.p

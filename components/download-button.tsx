@@ -16,7 +16,7 @@ function DownloadButton() {
     <>
 
       <Button onClick={onButtonClick}>
-        Download PDF
+        Download CV
       </Button>
 
     </>

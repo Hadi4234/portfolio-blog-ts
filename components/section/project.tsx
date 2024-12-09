@@ -5,7 +5,7 @@ import { FiArrowRight } from "react-icons/fi";
 
 export const Project = () => {
   return (
-    <section className="bg-neutral-950 p-4 md:p-8">
+    <section className="bg-background p-4 md:p-8">
       <div className="mx-auto max-w-5xl">
         <Link
           heading="Nextjs Ecommerce"
@@ -92,7 +92,7 @@ const Link = ({ heading, imgSrc, subheading, href }) => {
             staggerChildren: 0.075,
             delayChildren: 0.25,
           }}
-          className="relative z-10 block text-4xl font-bold text-neutral-500 transition-colors duration-500 group-hover:text-neutral-50 md:text-6xl"
+          className="relative z-10 block text-4xl font-bold text-foreground/75 transition-colors duration-500 group-hover:text-foreground md:text-6xl"
         >
           {heading.split("").map((l, i) => (
             <motion.span
@@ -108,7 +108,7 @@ const Link = ({ heading, imgSrc, subheading, href }) => {
             </motion.span>
           ))}
         </motion.span>
-        <span className="relative z-10 mt-2 block text-base text-neutral-500 transition-colors duration-500 group-hover:text-neutral-50">
+        <span className="relative z-10 mt-2 block text-base text-foreground/75 transition-colors duration-500 group-hover:text-foreground">
           {subheading}
         </span>
       </div>
